@@ -9,6 +9,7 @@
 
 Nmap scan results for each machine reveal the below services and OS details:
 nmap -sP 192.168.1.1-255
+![nmap](https://user-images.githubusercontent.com/77302201/129827939-04b49b80-afa1-4456-bb61-9ef892ee5947.png)
 
 
 This scan identifies the services below as potential points of entry:
