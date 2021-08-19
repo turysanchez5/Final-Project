@@ -101,20 +101,18 @@ This scan identifies the services below as potential points of entry:
 
 ![nmapports](https://user-images.githubusercontent.com/77302201/129829554-69e288cf-f0b5-4f59-9a3e-61f5f51ddd32.png)
 
-The following vulnerabilities were identified on each target:
+The following vulnerabilities were identified on the target:
 - Target 1
-  - List of
-  - Critical
-  - Vulnerabilities
+  - Port 22 open
+  - _Port 22 runs the risks of an attacker finding this open port and attacking it. 
 
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
+![wpscan](https://user-images.githubusercontent.com/77302201/129994784-9c1307cc-d771-4b78-9278-3a439e8d88a9.png)
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
-  - `flag1.txt`: _TODO: Insert `flag1.txt` hash value_
+  - `flag1.txt`: _
     - **Exploit Used**
       - _TODO: Identify the exploit used_
       - _TODO: Include the command run_
